@@ -56,4 +56,24 @@ Exemple de requête SQL pour inserez des données dans la table :
    ('Ronaldo', 'Madrid', 10),
    ('Grizou', 'barca', 3)
 
+Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
+   ```sql
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlError>
+#include <QDebug>
+
+// Créer une connexion à la base de données MySQL
+QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+db.setDatabaseName("test");  // Nom de la base de données
+db.setHostName("127.0.0.1");  // Hôte MySQL
+db.setPort(3306);  // Port MySQL
+db.setUserName("etudiant");  // Nom d'utilisateur
+db.setPassword("Passciel2");  // Mot de passe
+
+// Ouvrir la connexion
+if (db.open()) {
+    qDebug() << "Connexion réussie à la base de données !";
+} else {
+    qDebug() << "Erreur de connexion :" << db.lastError().text();
+}
 
