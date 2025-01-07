@@ -53,9 +53,6 @@ Exemple de requête SQL pour inserez des données dans la table :
    ```sql
    INSERT INTO jeu (Nom, club, note) VALUES
    ('Ronaldo', 'Madrid', 10),
-   ('Grizou', 'barca', 3);
+   ('Grizou', 'barca', 3)
 
 
-
-
-   
