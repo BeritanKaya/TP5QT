@@ -56,10 +56,8 @@ Exemple de requête SQL pour inserez des données dans la table :
    ('Ronaldo', 'Madrid', 10),
    ('Grizou', 'barca', 3)
 
----
-
-Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
-   ```sql
+# Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
+   ```
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlError>
 #include <QDebug>
