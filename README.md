@@ -80,7 +80,7 @@ if (db.open()) {
 }
 ```
 
-Code pour telecharger sa bdd dans Github :
+Code pour telecharger sa bdd :
 ```
 mysqldump -u etudiant -p test > test.sql
 
