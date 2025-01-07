@@ -50,7 +50,7 @@ sudo mysql -u etudiant -p
    - **`club`** : Club associé (varchar).
    - **`note`** : Note associée (int).
 
-   Exemple de requête SQL pour créer la table :
+Exemple de requête SQL pour créer la table :
    ```sql
    CREATE TABLE jeu (
        id INT PRIMARY KEY AUTO_INCREMENT,
