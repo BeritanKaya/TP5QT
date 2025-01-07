@@ -61,7 +61,10 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
        club VARCHAR(255),
        note INT
    );
+   ```
+# Ajouter QT += core gui sql dans resqueteSQL.pro :
 
+Qui permet de dire que le fichier utilise les   les modules core, gui, et sql.
    
 Exemple de requête SQL pour inserez des données dans la table :
    ```sql
@@ -98,6 +101,7 @@ mysqldump -u etudiant -p test > test.sql
 
 ```
 Rendu du l'interraction entre la bdd et l'interface graphique Qt :
+
 [Capture vidéo du 2025-01-07 13-51-28.webm](https://github.com/user-attachments/assets/64a367e6-716e-46fd-986a-1af01bcbdf40)
 
 
