@@ -62,7 +62,7 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
        note INT
    );
    ```
-# Ajouter QT += core gui sql dans resqueteSQL.pro :
+### Ajouter QT += core gui sql dans resqueteSQL.pro :
 
 Qui permet de dire que le fichier utilise les   les modules core, gui, et sql.
    
