@@ -38,7 +38,7 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 ## Prérequis
 
 - **Qt** (version 5 ou supérieure).
-- Un compilateur compatible **C++17**.
+- **Terminal**.
 - **MySQL** installé et configuré.
 
 ---
