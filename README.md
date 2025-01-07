@@ -1,1 +1,34 @@
 # TP5QT
+
+Créer une interface graphique dynamique avec lecture et écriture de données depuis/vers une BDD
+
+
+Ce projet est une application basée sur Qt qui permet de lire, afficher et modifier les données d'une base de données MySQL via une interface graphique dynamique. L'objectif est de proposer une solution intuitive et interactive pour gérer les données stockées dans une base de données.
+
+---
+
+## Objectif
+
+Créer une interface graphique dynamique avec les fonctionnalités suivantes :
+- Connexion à une base de données MySQL.
+- Modification des données directement dans l'interface.
+- Mise à jour automatique des données dans la base après modification.
+
+---
+
+### Configuration de la base de données
+1. Créez une base de données nommée `test`.
+2. Ajoutez une table nommée `jeu` avec les colonnes suivantes :
+   - **`id`** : Identifiant unique (int, clé primaire).
+   - **`Nom`** : Nom de l'élément (varchar).
+   - **`club`** : Club associé (varchar).
+   - **`note`** : Note associée (int).
+
+   Exemple de requête SQL pour créer la table :
+   ```sql
+   CREATE TABLE jeu (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       Nom VARCHAR(255),
+       club VARCHAR(255),
+       note INT
+   );
