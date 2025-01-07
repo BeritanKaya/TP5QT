@@ -97,5 +97,9 @@ Code pour telecharger sa bdd :
 mysqldump -u etudiant -p test > test.sql
 
 ```
+Rendu du l'interraction entre la bdd et l'interface graphique Qt :
+[Capture vidéo du 2025-01-07 13-51-28.webm](https://github.com/user-attachments/assets/64a367e6-716e-46fd-986a-1af01bcbdf40)
+
+
 
 
