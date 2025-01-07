@@ -55,9 +55,9 @@ Exemple de requête SQL pour inserez des données dans la table :
    INSERT INTO jeu (Nom, club, note) VALUES
    ('Ronaldo', 'Madrid', 10),
    ('Grizou', 'barca', 3)
+``
+Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
 
-# Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
-   ```
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlError>
 #include <QDebug>
@@ -76,4 +76,5 @@ if (db.open()) {
 } else {
     qDebug() << "Erreur de connexion :" << db.lastError().text();
 }
+```
 
