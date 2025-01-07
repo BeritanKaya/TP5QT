@@ -49,6 +49,7 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
        club VARCHAR(255),
        note INT
    );
+   
 Exemple de requête SQL pour inserez des données dans la table :
    ```sql
    INSERT INTO jeu (Nom, club, note) VALUES
