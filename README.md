@@ -37,6 +37,7 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 
 ## Prérequis
 
+- **Linux**.
 - **Qt** (version 5 ou supérieure).
 - **Terminal**.
 - **MySQL** installé et configuré.
