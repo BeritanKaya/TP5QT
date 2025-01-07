@@ -5,17 +5,6 @@ Ce projet est une application basée sur Qt qui permet de lire, afficher et modi
 
 ---
 
-## Sommaire
-
-1. [Objectif](#objectif)
-2. [Fonctionnalités](#fonctionnalités)
-3. [Prérequis](#prérequis)
-4. [Configuration de la base de données](#configuration-de-la-base-de-données)
-5. [Extrait de code pour la connexion à la base de données](#extrait-de-code-pour-la-connexion-à-la-base-de-données)
-6. [Exemple pour télécharger la base de données](#exemple-pour-télécharger-la-base-de-données)
-
----
-
 ## Objectif
 
 Créer une interface graphique dynamique avec les fonctionnalités suivantes :
@@ -43,7 +32,11 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 - **MySQL** installé et configuré.
 
 ---
-
+### Installer Qt :
+```
+sudo apt update
+sudo apt install qtcreator qt5-default libqt5sql5-mysql
+```
 ### Configuration de la base de données
 
 1. Créez une base de données nommée `test`.
