@@ -1,15 +1,22 @@
-# TP5QT
+# TP5QT - Requête SQL - Interface Graphique Dynamique
 
-
-# Requête SQL - Interface Graphique Dynamique
-
-Créer une interface graphique dynamique avec lecture et écriture de données depuis/vers une BDD
+Créer une interface graphique dynamique avec lecture et écriture de données depuis/vers une BDD.  
 Ce projet est une application basée sur Qt qui permet de lire, afficher et modifier les données d'une base de données MySQL via une interface graphique dynamique. L'objectif est de proposer une solution intuitive et interactive pour gérer les données stockées dans une base de données.
-
 
 ---
 
-##  Objectif
+## Sommaire
+
+1. [Objectif](#objectif)
+2. [Fonctionnalités](#fonctionnalités)
+3. [Prérequis](#prérequis)
+4. [Configuration de la base de données](#configuration-de-la-base-de-données)
+5. [Extrait de code pour la connexion à la base de données](#extrait-de-code-pour-la-connexion-à-la-base-de-données)
+6. [Exemple pour télécharger la base de données](#exemple-pour-télécharger-la-base-de-données)
+
+---
+
+## Objectif
 
 Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 - Connexion à une base de données MySQL.
@@ -19,21 +26,25 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 
 ---
 
-##  Fonctionnalités
+## Fonctionnalités
 
--  Connexion à une base de données MySQL avec des paramètres configurables.
--  Interface graphique intuitive construite avec **Qt Designer**.
--  Affichage des données dans un tableau interactif (**QTableWidget**).
--  Édition des cellules du tableau et mise à jour automatique dans la base de données.
+- Connexion à une base de données MySQL avec des paramètres configurables.
+- Interface graphique intuitive construite avec **Qt Designer**.
+- Affichage des données dans un tableau interactif (**QTableWidget**).
+- Édition des cellules du tableau et mise à jour automatique dans la base de données.
 
 ---
 
-### Prérequis
+## Prérequis
+
 - **Qt** (version 5 ou supérieure).
 - Un compilateur compatible **C++17**.
 - **MySQL** installé et configuré.
 
+---
+
 ### Configuration de la base de données
+
 1. Créez une base de données nommée `test`.
 2. Ajoutez une table nommée `jeu` avec les colonnes suivantes :
    - **`id`** : Identifiant unique (int, clé primaire).
@@ -49,7 +60,7 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
        club VARCHAR(255),
        note INT
    );
-   ```
+
    
 Exemple de requête SQL pour inserez des données dans la table :
    ```sql
