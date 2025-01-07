@@ -49,14 +49,16 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
        club VARCHAR(255),
        note INT
    );
+   ```
    
 Exemple de requête SQL pour inserez des données dans la table :
    ```sql
    INSERT INTO jeu (Nom, club, note) VALUES
    ('Ronaldo', 'Madrid', 10),
    ('Grizou', 'barca', 3)
+```
 
-Extrait de code main.cpp pour etablir une connexion avec la dd Mysql :
+Extrait de code main.cpp pour etablir une connexion avec la bdd Mysql :
 ```
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlError>
@@ -76,4 +78,12 @@ if (db.open()) {
 } else {
     qDebug() << "Erreur de connexion :" << db.lastError().text();
 }
+```
+
+Code pour mettre sa bdd dans Github :
+```
+mysqldump -u etudiant -p test > test.sql
+
+```
+
 
