@@ -37,6 +37,10 @@ Créer une interface graphique dynamique avec les fonctionnalités suivantes :
 sudo apt update
 sudo apt install qtcreator qt5-default libqt5sql5-mysql
 ```
+### Lancer MySQL :
+```
+sudo mysql -u etudiant -p 
+```
 ### Configuration de la base de données
 
 1. Créez une base de données nommée `test`.
